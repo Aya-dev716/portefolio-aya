@@ -1,0 +1,60 @@
+
+/* Conteneur des cartes */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Chaque carte */
+.card {
+  background-color: white;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 5px 20px rgba(163, 109, 128, 0.12);
+
+ 
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Titres */
+.card h3 {
+  color: #874C62;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Descriptions */
+.card p {
+  color: #654A55;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+.card img {
+  width: 130px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+/* Affichage sur tablette */
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Affichage sur téléphone */
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

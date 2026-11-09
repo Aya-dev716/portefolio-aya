@@ -1,0 +1,53 @@
+
+.btn-primary {
+  display: inline-block;
+  background-color: #D98FA3;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #BF7188;
+}
+
+.shout-button {
+  display: block;
+  margin: 25px auto;
+  background-color: #D98FA5;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.shout-button:hover {
+  background-color: #874C62;
+}
+
+.copy-email {
+  background-color: #D98FA5;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+.copy-email:hover {
+  background-color: #874C62;
+}
